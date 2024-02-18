@@ -1,3 +1,78 @@
-.container{
-    width : 100%;
+body{
+    background-image: linear-gradient(rgba(129, 65, 65, 0.73), rgba(5, 70, 17, 0.29)),url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
 }
+.players img{
+    width: 10%;
+    position: absolute;
+    top: 125px;
+}
+.player_1 img{
+    left: 5%;
+}
+.player_2 img{
+    left: 85%;
+}
+.board{
+    position: relative;
+    left: 30vw;
+}
+.board .row1{
+    position: relative;
+    top: 80vh;
+}
+.board .row2{
+    position: relative;
+    top: 67vh;
+}
+.board .row3{
+    position: relative;
+    top: 54vh;
+}
+.board .row4{
+    position: relative;
+    top: 41vh;
+}
+.board .row5{
+    position: relative;
+    top: 28vh;
+}
+.board .row6{
+    position: relative;
+    top: 15vh;
+}
+.board .row7{
+    position: relative;
+    top: 2vh;
+}
+.board .row8{
+    position: relative;
+    top: -11vh;
+}
+.board .row9{
+    position: relative;
+    top: -24vh;
+}
+.board .row10{
+    position: relative;
+    top: -37vh;
+}
+.board h2{
+    position: relative;
+    left: 12px;
+    top: -5px;
+}
+.sr1,.sr2,.sr3,.sr4,.sr5,.sr6,.sr7,.sr8,.sr9,.sr10{
+    width: 50px;
+    height: 50px;
+    background-color: coral;
+    border: black solid 1px;
+    border-radius: 2%;
+    position: relative;
+    display: inline-block;
+    margin: -2px;
+}
+
