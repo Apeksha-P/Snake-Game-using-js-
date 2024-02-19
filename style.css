@@ -106,3 +106,34 @@ body{
     top: -320px;
     left: -170px;
 }
+.ladder{
+    position: inherit;
+}
+.ladder .ladder_1{
+    width: 8%;
+    height: 5%;
+    position: relative;
+    top: -500px;
+    left: -35px;
+}
+.ladder .ladder_2{
+    width: 8%;
+    height: 5%;
+    position: relative;
+    top: -305px;
+    left: -80px;
+}
+.ladder .ladder_3{
+    width: 8%;
+    height: 5%;
+    position: relative;
+    top: -550px;
+    left: -24px;
+}
+.ladder .ladder_4{
+    width: 8%;
+    height: 5%;
+    position: relative;
+    top: -200px;
+    left: 5px;
+}
