@@ -75,4 +75,34 @@ body{
     display: inline-block;
     margin: -2px;
 }
-
+.snake{
+    position: inherit;
+}
+.snake .snake_1{
+    transform: rotate(120deg);
+    width: 8%;
+    position: relative;
+    top: -270px;
+    left: 90px;
+}
+.snake .snake_2{
+    transform: rotate(120deg);
+    width: 15%;
+    position: relative;
+    top: -95px;
+    left: 90px;
+}
+.snake .snake_3{
+    width: 8%;
+    height: 5%;
+    position: relative;
+    top: -460px;
+    left: 10px;
+}
+.snake .snake_4{
+    transform: rotate(30deg);
+    width: 12%;
+    position: relative;
+    top: -320px;
+    left: -170px;
+}
